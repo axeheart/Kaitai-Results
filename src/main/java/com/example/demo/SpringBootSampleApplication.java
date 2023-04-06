@@ -8,6 +8,7 @@ public class SpringBootSampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootSampleApplication.class, args);
+		System.out.println("プルリクエストテスト確認表示");
 	}
 
 }
