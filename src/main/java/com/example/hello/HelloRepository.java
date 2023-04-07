@@ -16,8 +16,8 @@ public class HelloRepository{
 
 		// SELECT文
 		String query = "SELECT *"
-			+ "FROM employee"
-			+ "WHERE ID=?";
+			+ " FROM employee"
+			+ " WHERE id=?";
 
 		//検索実行
 		Map<String, Object>employee = jdbcTemplate.queryForMap(query,id);
